@@ -30,7 +30,12 @@ namespace birthday
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "birthday", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Trintou API",
+                    Description = "Esta é uma API de contagem regressiva para os trintou do plebeu",
+                    Contact = new OpenApiContact() { Name = "André Borges", Email = "borges.andree@gmail.com " }
+                });
             });
         }
 
