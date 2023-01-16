@@ -6,7 +6,7 @@
     <members>
         <member name="M:birthday.Controllers.BirthdayController.GetBirthday">
             <summary>
-            Retorna o aniversário do Plebeu Alef
+            Retorna quantos dias falta para o aniversário do Plebeu Alef
             </summary>
             <returns></returns>
         </member>

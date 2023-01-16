@@ -17,7 +17,7 @@ namespace birthday.Controllers
         }
 
         /// <summary>
-        /// Retorna o aniversário do Plebeu Alef
+        /// Retorna quantos dias falta para o aniversário do Plebeu Alef
         /// </summary>
         /// <returns></returns>
         [HttpGet]
