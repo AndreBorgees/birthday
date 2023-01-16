@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Birthday</name>
+    </assembly>
+    <members>
+        <member name="M:birthday.Controllers.BirthdayController.GetBirthday">
+            <summary>
+            Retorna o aniversário do Plebeu Alef
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

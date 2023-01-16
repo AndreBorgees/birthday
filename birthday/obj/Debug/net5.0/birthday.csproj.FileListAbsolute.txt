@@ -26,3 +26,5 @@ C:\birthday\birthday\birthday\obj\Debug\net5.0\refint\birthday.dll
 C:\birthday\birthday\birthday\obj\Debug\net5.0\birthday.pdb
 C:\birthday\birthday\birthday\obj\Debug\net5.0\birthday.genruntimeconfig.cache
 C:\birthday\birthday\birthday\obj\Debug\net5.0\ref\birthday.dll
+C:\birthday\birthday\birthday\bin\Debug\net5.0\Birthday.xml
+C:\birthday\birthday\birthday\obj\Debug\net5.0\Birthday.xml
