@@ -41,7 +41,7 @@ namespace birthday.Controllers
             var daysToAlefBirthday = 0;
 
             var alefBirthday = Convert.ToDateTime("10/11/1993");
-            var today = Convert.ToDateTime("09/10/1993"); //DateTime.Now;
+            var today = Convert.ToDateTime("07/10/1993"); //DateTime.Now;
 
             if (today.Day > 10)
             {
