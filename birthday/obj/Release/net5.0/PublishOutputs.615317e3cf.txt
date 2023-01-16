@@ -1,0 +1,11 @@
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Birthday.exe
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Birthday.dll
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Birthday.deps.json
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Birthday.runtimeconfig.json
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Birthday.pdb
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\birthday\birthday\birthday\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
