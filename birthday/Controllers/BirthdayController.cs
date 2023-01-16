@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace birthday.Controllers
@@ -11,11 +9,6 @@ namespace birthday.Controllers
     [Route("/aniversario")]
     public class BirthdayController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         private readonly ILogger<BirthdayController> _logger;
 
         public BirthdayController(ILogger<BirthdayController> logger)
@@ -40,8 +33,8 @@ namespace birthday.Controllers
             var monthsToAlefBirthday = 0;
             var daysToAlefBirthday = 0;
 
-            var alefBirthday = Convert.ToDateTime("10/11/1993");
-            var today = Convert.ToDateTime("02/10/1993"); //DateTime.Now;
+            var alefBirthday = Convert.ToDateTime("10/11/2023");
+            var today = DateTime.Now;
 
             if (today.Day > 10)
             {
@@ -56,6 +49,13 @@ namespace birthday.Controllers
                 daysToAlefBirthday = alefBirthday.Day - today.Day;
             }
 
+            var message = MessageMount(monthsToAlefBirthday, daysToAlefBirthday);
+
+            return message;
+        }
+
+        private string MessageMount(int monthsToAlefBirthday, int daysToAlefBirthday)
+        {
             var message = "";
             switch (monthsToAlefBirthday)
             {
@@ -63,8 +63,8 @@ namespace birthday.Controllers
                     switch (daysToAlefBirthday)
                     {
                         case 1:
-                            message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
-                            break;
+                            message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                            return message;
                     }
 
                     message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
@@ -73,8 +73,8 @@ namespace birthday.Controllers
                     switch (daysToAlefBirthday)
                     {
                         case 1:
-                            message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
-                            break;
+                            message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                            return message;
                     }
                     message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
                     break;
@@ -83,12 +83,11 @@ namespace birthday.Controllers
                     {
                         case 1:
                             message = $"FALTAM {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
-                            break;
+                            return message;
                     }
                     message = $"FALTAM {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
                     break;
             }
-
             return message;
         }
     }
