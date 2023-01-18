@@ -63,29 +63,29 @@ namespace birthday.Controllers
                     switch (daysToAlefBirthday)
                     {
                         case 1:
-                            message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                            message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIA PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                             return message;
                     }
 
-                    message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                    message = $"FALTAM {monthsToAlefBirthday} MÊS E {daysToAlefBirthday} DIAS PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                     break;
                 case > 1:
                     switch (daysToAlefBirthday)
                     {
                         case 1:
-                            message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                            message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIA PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                             return message;
                     }
-                    message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                    message = $"FALTAM {monthsToAlefBirthday} MESES E {daysToAlefBirthday} DIAS PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                     break;
                 default:
                     switch (daysToAlefBirthday)
                     {
                         case 1:
-                            message = $"FALTAM {daysToAlefBirthday} DIA PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                            message = $"FALTAM {daysToAlefBirthday} DIA PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                             return message;
                     }
-                    message = $"FALTAM {daysToAlefBirthday} DIAS PARA O ANIVERÁRIO DO PLEBEU ALEF";
+                    message = $"FALTAM {daysToAlefBirthday} DIAS PARA O ANIVERSÁRIO DO PLEBEU ALEF";
                     break;
             }
             return message;
