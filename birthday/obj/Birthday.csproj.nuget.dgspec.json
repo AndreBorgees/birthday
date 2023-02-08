@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Zoeira\\birthday\\birthday\\Birthday.csproj": {}
+    "C:\\Projetos\\birthday\\birthday\\Birthday.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Zoeira\\birthday\\birthday\\Birthday.csproj": {
+    "C:\\Projetos\\birthday\\birthday\\Birthday.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Zoeira\\birthday\\birthday\\Birthday.csproj",
+        "projectUniqueName": "C:\\Projetos\\birthday\\birthday\\Birthday.csproj",
         "projectName": "Birthday",
-        "projectPath": "C:\\Projetos\\Zoeira\\birthday\\birthday\\Birthday.csproj",
+        "projectPath": "C:\\Projetos\\birthday\\birthday\\Birthday.csproj",
         "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Zoeira\\birthday\\birthday\\obj\\",
+        "outputPath": "C:\\Projetos\\birthday\\birthday\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
